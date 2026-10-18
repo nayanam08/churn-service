@@ -1,0 +1,1 @@
+{"columns": ["tenure", "MonthlyCharges", "TotalCharges", "SeniorCitizen", "Contract", "InternetService", "PaymentMethod"], "data": [[66, 75.27812921011584, 5648.865778507854, 0, "Two year", "No", "Bank transfer (automatic)"], [16, 53.19393650263552, 3217.136793205686, 0, "Two year", "DSL", "Mailed check"]]}

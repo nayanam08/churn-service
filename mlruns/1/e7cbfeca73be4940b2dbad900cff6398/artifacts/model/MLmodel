@@ -1,0 +1,34 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 2.16.2
+model_size_bytes: 3643
+model_uuid: 47ccf7c753654d5bac7953e77458344a
+run_id: e7cbfeca73be4940b2dbad900cff6398
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "tenure", "required": true}, {"type": "double",
+    "name": "MonthlyCharges", "required": true}, {"type": "double", "name": "TotalCharges",
+    "required": true}, {"type": "long", "name": "SeniorCitizen", "required": true},
+    {"type": "string", "name": "Contract", "required": true}, {"type": "string", "name":
+    "InternetService", "required": true}, {"type": "string", "name": "PaymentMethod",
+    "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+utc_time_created: '2026-10-18 13:41:46.695635'
