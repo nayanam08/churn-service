@@ -5,3 +5,4 @@ mlruns/
 mlflow.db
 *.pyc
 .venv/
+churn-venv/
