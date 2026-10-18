@@ -9,7 +9,7 @@ app_port: 7860
 
 # Churn Prediction Service
 
-An MLOps learning project: a scikit-learn churn model served with FastAPI, packaged with Docker and deployed to Hugging Face Spaces.
+An MLOps learning project: a scikit-learn churn model served with FastAPI, packaged with Docker and deployed to Render.
 
 ## Run locally
 ```bash
